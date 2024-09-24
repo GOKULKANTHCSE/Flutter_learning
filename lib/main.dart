@@ -1,15 +1,22 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/Button_Types.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/Container_sized.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/Rows_and_columns.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/dismissible.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/drawer.dart';
 import 'package:learning_project/Widgets/image.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/listview.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/snackbar.dart';
 
 void main() {
-  runApp(new Mylearning());
+  runApp(const Mylearning());
 }
 
 class Mylearning extends StatelessWidget {
@@ -21,8 +28,8 @@ class Mylearning extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.dark,
-          primaryColor: Color.fromARGB(100, 83, 36, 121)),
-      home: ImageWidget(),
+          primaryColor: const Color.fromARGB(100, 83, 36, 121)),
+      home: const ImageWidget(),
     );
   }
 }
