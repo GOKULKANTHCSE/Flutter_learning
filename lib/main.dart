@@ -5,10 +5,12 @@ import 'package:learning_project/Widgets/Button_Types.dart';
 import 'package:learning_project/Widgets/Container_sized.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/Rows_and_columns.dart';
+import 'package:learning_project/Widgets/alert.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/dismissible.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/drawer.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/image.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/listview.dart';
@@ -29,7 +31,7 @@ class Mylearning extends StatelessWidget {
       theme: ThemeData(
           brightness: Brightness.dark,
           primaryColor: const Color.fromARGB(100, 83, 36, 121)),
-      home: const ImageWidget(),
+      home: AlertWidget(),
     );
   }
 }
