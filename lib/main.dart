@@ -5,7 +5,9 @@ import 'package:learning_project/Widgets/Button_Types.dart';
 import 'package:learning_project/Widgets/Container_sized.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/Rows_and_columns.dart';
+// ignore: unused_import
 import 'package:learning_project/Widgets/alert.dart';
+import 'package:learning_project/Widgets/bottomsheet.dart';
 // ignore: unused_import
 import 'package:learning_project/Widgets/dismissible.dart';
 // ignore: unused_import
@@ -29,9 +31,8 @@ class Mylearning extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          brightness: Brightness.dark,
-          primaryColor: const Color.fromARGB(100, 83, 36, 121)),
-      home: AlertWidget(),
+          brightness: Brightness.light, primaryColor: Colors.orangeAccent),
+      home: Bottomsheet(),
     );
   }
 }
