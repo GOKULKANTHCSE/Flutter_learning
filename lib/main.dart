@@ -1,23 +1,5 @@
 import 'package:flutter/material.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/Button_Types.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/Container_sized.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/Rows_and_columns.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/alert.dart';
-import 'package:learning_project/Widgets/bottomsheet.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/dismissible.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/drawer.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/image.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/listview.dart';
-// ignore: unused_import
-import 'package:learning_project/Widgets/snackbar.dart';
+import 'package:learning_project/Widgets/bottomnavigation.dart';
 
 void main() {
   runApp(const Mylearning());
@@ -32,7 +14,7 @@ class Mylearning extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light, primaryColor: Colors.orangeAccent),
-      home: Bottomsheet(),
+      home: BottomNav(),
     );
   }
 }
