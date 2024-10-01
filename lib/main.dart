@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:learning_project/Widgets/forms.dart';
+import 'package:learning_project/Widgets/imagepicker.dart';
+import 'package:learning_project/Widgets/tabbar.dart';
 
 void main() {
   runApp(const Mylearning());
@@ -15,7 +15,7 @@ class Mylearning extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light, primaryColor: Colors.orangeAccent),
-      home: FormWidget(),
+      home: Imagepicker(),
     );
   }
 }
