@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_project/Widgets/imagepicker.dart';
-import 'package:learning_project/Widgets/tabbar.dart';
+import 'package:learning_project/Widgets/drawer.dart';
 
 void main() {
   runApp(const Mylearning());
@@ -15,7 +14,7 @@ class Mylearning extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light, primaryColor: Colors.orangeAccent),
-      home: Imagepicker(),
+      home: const DrawerWidget(),
     );
   }
 }
